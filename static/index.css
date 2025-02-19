@@ -38,12 +38,12 @@ body, html {
   text-align: center;
   padding: 20px;
   margin-top: -4%;
+  top: 50%;
 }
 
 #content h1 {
   font-size: 24px;
   cursor:pointer;
-  text-transform: uppercase;
   font-family: 'Inter', sans-serif;
   line-height: 1.5;
   margin-bottom: 20px;
