@@ -39,14 +39,19 @@ body, html {
   padding: 20px;
   margin-top: -4%;
   top: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content horizontally */
+  justify-content: center; /* Centers content vertically */
+  height: 100vh; /* Full screen height to center vertically */
 }
 
 #content h1 {
   font-size: 24px;
+  margin-bottom: 20px; /* Space between the h1 and the input */
   cursor:pointer;
   font-family: 'Inter', sans-serif;
   line-height: 1.5;
-  margin-bottom: 20px;
 }
 
 #searchbar {
@@ -58,10 +63,10 @@ body, html {
   padding: 10px;
   border: 1px;
   border-color: #163333;
+  margin-top: 0;
   border-radius: 10px;
   font-size: 16px;
   width: 300px;
-  top: 50%;
   font-family:'Inter';
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
   background-color: #0a1f1f;
