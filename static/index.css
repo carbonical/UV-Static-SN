@@ -49,6 +49,7 @@ body, html {
   cursor:pointer;
   margin-bottom: 20px;
   font-family: 'Inter', sans-serif;
+  margin-top: -50px;
   line-height: 1.5;
   color: #bdfcec;
 }
@@ -84,6 +85,7 @@ body, html {
   border: 1px solid #163333;
   margin-top: 0;
   border-radius: 10px;
+  margin-top: -50px;
   font-size: 16px;
   width: 600px;
   font-family:'Inter';
