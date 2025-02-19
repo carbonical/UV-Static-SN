@@ -155,21 +155,15 @@ a{
 }
 
 .sub-text {
-    font-size: 16px;
+    font-size: 10px;
     text-align: center;
-    color: #bdfcec;
+    color: #aaa;
     margin-top: 10px;
     position: relative;
     margin-bottom: -5px;
     z-index: 1;
     font-family: 'Inter';
     display: block;
+    opacity: 0.5;
     font-weight: normal;
-  }
-.sub-text .sub-icon {
-    font-size: 1.7rem;
-    margin-right: 8px;
-    color: #bdfcec;
-    transform: translateY(-2px);
-    vertical-align: middle;
   }
