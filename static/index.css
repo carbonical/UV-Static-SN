@@ -59,6 +59,7 @@ body, html {
     color: #1a9b8a;
     text-shadow: 0 0 30px #1a9b8a, 0 0 50px #1a9b8a, 0 0 80px #1a9b8a;
     animation: colorShift 3s ease-in-out infinite;
+    font-size: 42px;
 }
 
 @keyframes colorShift {
