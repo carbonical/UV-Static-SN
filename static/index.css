@@ -156,10 +156,10 @@ a{
     font-size: 16px;
     text-align: center;
     color: #bdfcec;
+    margin-bottom: 5px;
     position: relative;
     z-index: 1;
     font-family: 'Inter';
     display: inline-block;
     font-weight: normal;
-    margin-top: 10px;
   }
