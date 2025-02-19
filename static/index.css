@@ -153,13 +153,12 @@ a{
 }
 
 .sub-text {
-    font-size: 1.5rem;
+    font-size: 16px;
     text-align: center;
     color: #bdfcec;
     position: relative;
-    z-index: 10;
+    z-index: 1;
     font-family: 'Inter';
-    animation: zoomIn 1s ease-out forwards;
     display: inline-block;
     font-weight: normal;
     margin-top: 10px;
