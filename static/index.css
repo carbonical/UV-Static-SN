@@ -48,8 +48,8 @@ body, html {
 
 #content h1 {
   font-size: 32px;
-  margin-bottom: 20px; /* Space between the h1 and the input */
   cursor:pointer;
+  margin-bottom: 5px;
   font-family: 'Inter', sans-serif;
   line-height: 1.5;
   color: #bdfcec;
@@ -158,6 +158,7 @@ a{
     color: #bdfcec;
     position: relative;
     z-index: 10;
+    font-family: 'Inter';
     animation: zoomIn 1s ease-out forwards;
     display: inline-block;
     font-weight: normal;
