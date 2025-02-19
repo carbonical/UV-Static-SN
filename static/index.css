@@ -163,6 +163,6 @@ a{
     position: relative;
     z-index: 1;
     font-family: 'Inter';
-    display: inline-block;
+    display: flex;
     font-weight: normal;
   }
