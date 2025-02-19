@@ -47,7 +47,7 @@ body, html {
 }
 
 #content h1 {
-  font-size: 32px;
+  font-size: 42px;
   cursor:pointer;
   margin-bottom: 20px;
   font-family: 'Inter', sans-serif;
@@ -87,7 +87,7 @@ body, html {
   margin-top: 0;
   border-radius: 10px;
   font-size: 16px;
-  width: 300px;
+  width: 600px;
   font-family:'Inter';
   box-shadow: 0 0 5px rgba(2, 59, 55, 0.3);
   background-color: #0a1f1f;
