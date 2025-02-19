@@ -160,7 +160,7 @@ a{
     color: #bdfcec;
     margin-top: 10px;
     position: relative;
-    margin-bottom: 1px;
+    margin-bottom: -3px;
     z-index: 1;
     font-family: 'Inter';
     display: block;
