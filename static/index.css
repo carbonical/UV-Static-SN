@@ -157,7 +157,7 @@ a{
     text-align: center;
     color: #bdfcec;
     margin-bottom: 10px;
-    position: relative;
+    position: absolute;
     z-index: 1;
     font-family: 'Inter';
     display: inline-block;
