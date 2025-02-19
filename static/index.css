@@ -166,3 +166,10 @@ a{
     display: block;
     font-weight: normal;
   }
+.sub-text .sub-icon {
+    font-size: 2rem;
+    margin-right: 8px;
+    color: #bdfcec;
+    transform: translateY(-2px);
+    vertical-align: middle;
+  }
