@@ -59,6 +59,20 @@ body, html {
     color: #1a9b8a;
     text-shadow: 0 0 30px #1a9b8a, 0 0 50px #1a9b8a, 0 0 80px #1a9b8a;
     animation: colorShift 3s ease-in-out infinite;
+}
+
+@keyframes colorShift {
+    0% {
+      color: #1a9b8a;
+    }
+
+    50% {
+      color: #00ff99;
+    }
+
+    100% {
+      color: #1a9b8a;
+    }
   }
 
 #searchbar {
