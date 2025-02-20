@@ -51,16 +51,26 @@
       <script src="index.js" defer></script>
       <script src="error.js" defer></script>
       <script>
-         // When a game card is clicked, open its data-url in the full-screen iframe
-         document.querySelectorAll('.game-card').forEach((card) => {
-           card.addEventListener('click', () => {
-             const url = card.dataset.url;
-             // Set the iframe src
-             document.getElementById('overlay-iframe').src = url;
-             // Show the overlay
-             document.getElementById('iframe-overlay').style.display = 'block';
-           });
-         });
+         // JavaScript to handle card click and display full-screen iframe
+document.querySelectorAll('.game-card').forEach(card => {
+  card.addEventListener('click', function() {
+    const url = card.getAttribute('data-url');
+    if (url) {
+      let iframe = document.createElement('iframe');
+      iframe.src = url;
+      iframe.style.position = 'fixed';
+      iframe.style.top = '0';
+      iframe.style.left = '0';
+      iframe.style.width = '100vw';
+      iframe.style.height = '100vh';
+      iframe.style.border = 'none';
+      iframe.style.zIndex = '9999';
+
+      document.body.appendChild(iframe);
+    }
+  });
+});
+
 
       </script>
    </body>
