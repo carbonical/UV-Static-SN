@@ -184,6 +184,7 @@ a{
       position: relative;
       width: 160px; /* Smaller size */
       height: 100px; /* Smaller size */
+      font-family: 'Inter';
       overflow: hidden;
       border-radius: 15px;
       box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
@@ -230,6 +231,7 @@ a{
       margin: 0 0 5px 0;
       font-size: 16px;
       font-weight: 600;
+      font-family: 'Inter';
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
     }
 
