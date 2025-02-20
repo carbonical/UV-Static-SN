@@ -50,5 +50,18 @@
       <script src="search.js" defer></script>
       <script src="index.js" defer></script>
       <script src="error.js" defer></script>
+      <script>
+         // When a game card is clicked, open its data-url in the full-screen iframe
+         document.querySelectorAll('.game-card').forEach((card) => {
+           card.addEventListener('click', () => {
+             const url = card.dataset.url;
+             // Set the iframe src
+             document.getElementById('overlay-iframe').src = url;
+             // Show the overlay
+             document.getElementById('iframe-overlay').style.display = 'block';
+           });
+         });
+
+      </script>
    </body>
 </html>
